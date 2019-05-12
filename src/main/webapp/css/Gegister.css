@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+#code{  
+	
+                font-family:Arial;  
+                font-style:italic;  
+                font-weight:bold; 
+                width:90px;
+                height:38px;
+                border:0;  
+                letter-spacing:6px;  
+                color:blue;  
+            }
+.templatemo-bg-gray{ background: url(../img/10.jpg) no-repeat; width: 100%;height: 100%; background-size: cover; }
+.all {
+	width: 500px;
+	height: 650px;
+	position: absolute;
+	left: 32%;
+	top: 4%;;
+	padding-bottom:20px;
+	filter: alpha(opacity : 50);
+	opacity: 0.7;
+	box-shadow: 0px 0px 10px #000;
+	display: block;
+	border-radius: 4px;
+	background: white;
+	cursor: pointer;
+	transition: 0.6s; /*用于放大的缓冲时间*/
+}
+.form-horizontal {
+	position: absolute;
+	left: 40px;
+}
+.all:hover {
+	transform: scale(1.0); /*放大的倍数*/
+}
+
+.col-md-12 {
+	filter: alpha(opacity : 30);
+	opacity: 1;
+}
+
+.right {
+	position: static;
+	margin: 0 600px;
+	width: 300px;
+	height: 300px;
+	background-color: #2F4056;
+}
