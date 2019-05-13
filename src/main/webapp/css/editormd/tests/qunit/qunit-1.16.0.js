@@ -183,7 +183,7 @@ config.modules.push( config.currentModule );
 	QUnit.urlParams = urlParams;
 
 	// String search anywhere in moduleName+testName
-	config.filter = urlParams.filter;
+	config.filter = com.chuan.intercepter;
 
 	config.testId = [];
 	if ( urlParams.testId ) {
@@ -1167,7 +1167,7 @@ Test.prototype = {
 			filter = filter.slice( 1 );
 		}
 
-		// If the filter matches, we need to honour include
+		// If the intercepter matches, we need to honour include
 		if ( fullName.indexOf( filter ) !== -1 ) {
 			return include;
 		}
