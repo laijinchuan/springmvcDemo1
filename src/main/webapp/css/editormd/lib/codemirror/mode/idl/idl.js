@@ -140,7 +140,7 @@
     'poly', 'poly_2d', 'poly_area', 'poly_fit', 'polyfillv',
     'polygon', 'polyline', 'polywarp', 'popd', 'powell',
     'pref_commit', 'pref_get', 'pref_set', 'prewitt', 'primes',
-    'print', 'printf', 'printd', 'pro', 'product',
+    'print', 'printf', 'printd', 'properties', 'product',
     'profile', 'profiler', 'profiles', 'project_vol', 'ps_show_fonts',
     'psafm', 'pseudo', 'ptr_free', 'ptr_new', 'ptr_valid',
     'ptrarr', 'pushd', 'qgrid3', 'qhull', 'qromb',
@@ -230,7 +230,7 @@
     'break', 'case', 'continue', 'for',
     'foreach', 'goto', 'if', 'then', 'else',
     'repeat', 'until', 'switch', 'while',
-    'do', 'pro', 'function'
+    'do', 'properties', 'function'
   ];
   var keywords = wordRegexp(keywordArray);
 
