@@ -2,11 +2,11 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.chuan.dao.userDao">
-    <select id="getUser" resultType="com.chuan.entity.User" parameterType="String">
+<mapper namespace="com.ljc.dao.userDao">
+    <select id="getUser" resultType="com.ljc.entity.User" parameterType="String">
         select * from user where username=#{usename} and password=#{password}
     </select>
-    <insert id="insertUser" parameterType="com.chuan.entity.User" >
+    <insert id="insertUser" parameterType="com.ljc.entity.User" >
         insert into user  {user_id,username,password,birthday,email,remark}
         value (#{user_id},#{username},#{password},#{birthday},#{email},#{remark});
     </insert>

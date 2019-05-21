@@ -2,7 +2,8 @@ function ValidateRadio()
 {
 	var seletedValue = "";
 	for(i=0;i<document.form1.optionsRadios.length;i++)
-	{ 
+	{
+
 		if(document.form1.optionsRadios[i].checked)   
 		{
 			seletedValue += document.form1.optionsRadios[i].value;
@@ -100,7 +101,7 @@ function zc() {
 	var d = document.getElementById("username1").value;
 	var a = document.getElementById("password").value;
 	var b = document.getElementById("password_confirm").value;
-	var c = document.getElementById("e_mail").value;
+	var c = document.getElementById("email").value;
 	var e = document.getElementById("username").value;
 	var redom = document.getElementById("input").value;
 	if (a == "" || d == "" || b == "" || c == "" || e == "" || redom == "") {

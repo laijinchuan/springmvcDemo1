@@ -8,6 +8,9 @@
   <groupId>com.chuan</groupId>
   <artifactId>springmvcDemo</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <properties>
+    <spring.version>5.1.6.RELEASE</spring.version>
+  </properties>
 
   <build>
     <plugins>
@@ -31,7 +34,7 @@
 
   <dependencies>
     <!--dependency>
-      <groupId>com.chuan</groupId>
+      <groupId>com.ljcgroupId>
       <artifactId>[the artifact id of the block to be mounted]</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency-->
@@ -54,6 +57,31 @@
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
       <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.1.6.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-pool</groupId>
+      <artifactId>commons-pool</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.40</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-dbcp</groupId>
+      <artifactId>commons-dbcp</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
     </dependency>
   </dependencies>
 
